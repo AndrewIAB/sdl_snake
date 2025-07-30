@@ -1,6 +1,6 @@
 CC := gcc
 SDL_ARGS := $(shell sdl2-config --cflags --libs)
-CARGS := -Wall -Wextra -Werror=implicit-function-declaration -Iinclude -lm -lGL $(SDL_ARGS)
+CARGS := -Wall -Wextra -Werror=implicit-function-declaration -Iinclude -Llib -lm -lGL $(SDL_ARGS)
 
 SOURCE_FILES := $(wildcard src/*.c)
 SOURCE_NAMES := $(notdir $(basename $(SOURCE_FILES)))
