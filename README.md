@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a little snake test I wrote in SDL2 with OpenGL 3.3. It has basic 2D pathtraced lighting, the shader for that is under `assets/lighting.frag` if you want to play with that.
+This is a little snake test I wrote in SDL2 with OpenGL 3.3. It has basic 2D pathtraced lighting, the shader for that is under `assets/lights.frag` if you want to play with that.
 
 ## Build Instructions
 
